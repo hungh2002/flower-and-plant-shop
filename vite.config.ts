@@ -10,13 +10,13 @@ export default defineConfig(({ mode }) => {
     return {
       // vite config
       server: { host: "127.0.0.1" },
-      base: "/flower-and-plant-shop/",
+      base: "/flower-and-plant-shop",
       plugins: [react()],
     };
   } else {
     return {
       // vite config
-      base: "/flower-and-plant-shop/",
+      base: "/flower-and-plant-shop",
       plugins: [react()],
     };
   }
